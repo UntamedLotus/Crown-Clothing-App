@@ -1,6 +1,6 @@
 import "./cart-item.scss";
 
-const cartItem = ({ cartItem }) => {
+const CartItem = ({ cartItem }) => {
   return (
     <div className="">
       <h2>{cartItem.name}</h2>
@@ -9,4 +9,4 @@ const cartItem = ({ cartItem }) => {
   );
 };
 
-export default cartItem;
+export default CartItem;
